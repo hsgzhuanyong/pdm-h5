@@ -1,0 +1,14 @@
+$primary: #478cff;
+$warning: #ffaf02;
+
+:root {
+  --primary: #478cff;
+  --warning: #ffaf02;
+}
+
+.color-primary {
+  color: var(--primary);
+}
+.color-warning {
+  color: var(--warning);
+}

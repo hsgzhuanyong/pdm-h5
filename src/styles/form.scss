@@ -1,0 +1,13 @@
+input,
+select,
+textarea {
+  border: 0;
+  -webkit-appearance: none;
+  background: transparent;
+  font-size: 0.3rem;
+  color: #333333;
+  outline: none;
+  &::placeholder {
+    color: #999999;
+  }
+}

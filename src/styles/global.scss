@@ -1,0 +1,11 @@
+@import "./theme";
+
+@mixin marginAuto {
+  margin-left: .24rem;
+  margin-right: .24rem;
+}
+
+@mixin paddingAuto {
+  padding-left: .24rem;
+  padding-right: .24rem;
+}
