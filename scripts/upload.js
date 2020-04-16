@@ -12,10 +12,10 @@ if (argv._.includes('pro')) {
 }
 
 const connectConfig = {
-  host: '132.232.45.184',
-  port: '21',
-  user: '499793675',
-  password: 'xiaobaiphp123.'
+  host: '服务器ip',
+  port: '端口',
+  user: '用户名',
+  password: '密码'
 };
 
 connect(connectConfig).then((ftp) => {
