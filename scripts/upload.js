@@ -23,18 +23,18 @@ connect(connectConfig).then((ftp) => {
 });
 
 function start (ftp) {
-  const html = path.resolve(__dirname, '../dist/index.html');
-  const resource = path.resolve(__dirname, '../dist');
+  const html = '本地html页面';
+  const resource = '本地静态资源路径';
   let ftpHtml = '';
   let ftpResource = '';
   if (isDev && !isPro) {
     // 开发环境
-    ftpHtml = '/zsh.wkan.cn/template/default/recommendHouse.tpl';
-    ftpResource = '/zsh.wkan.cn/image/recommend/new';
+    ftpHtml = '服务器html页面';
+    ftpResource = '服务器静态资源路径';
   } else if (!isDev && isPro) {
     // 生产环境
-    ftpHtml = '/zsh/template/default/recommendHouse.tpl';
-    ftpResource = '/zsh/image/recommend/new';
+    ftpHtml = '服务器html页面';
+    ftpResource = '服务器静态资源路径';
   } else if (isDev && isPro) {
     uploadAll().then(res => {
       ftp.end();
