@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.4",
     "h5-rem": "^1.0.2",
     "layer-mobile": "^2.0.1",
